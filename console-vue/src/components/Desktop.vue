@@ -1,6 +1,6 @@
 <template>
   <div class="desktop">
-    <div>
+    <div style="margin-bottom:15px;">
       <el-button type="primary">新建 <i class="el-icon-upload"></i></el-button>
     </div>
     <el-row :gutter="20">
@@ -69,6 +69,7 @@ export default {
 
 .grid-content {
   padding: 20px;
+  text-align: center;
 }
 
 .grid-content .el-button-group {
